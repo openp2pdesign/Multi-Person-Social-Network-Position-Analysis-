@@ -4,8 +4,9 @@ Python code for the Multi-Person Social Network Position Analysis methodology, f
 ## 01_github
 
 Requirements for Virtualenv in `requirements.txt`.  
-Run first `01_github_data.ipynb` with Jupyter Lab/Notebook to extract the data. Get the Github token from https://github.com/settings/tokens  
+Run first `01_github_data.ipynb` with Jupyter Lab/Notebook to extract the data. Choose which repository to analyze, clone it locally, get the Github token from https://github.com/settings/tokens  
 Run then `02_analysis.ipynb` to finalize the data analysis, saving images.  
+Some charts were anonymized - uncomment where suggest in order to generate charts with usernames.
 
 ## 02_twitter
 
@@ -28,3 +29,4 @@ Add network data as .graphml in `data/github.graphml` and `data/twitter.graphml`
 The notebooks have already code for installing it in Google Colab.
 
 Run files with Jupyter Lab/Notebook in no particular order.
+Some charts were anonymized - uncomment where suggest in order to generate charts with usernames.
